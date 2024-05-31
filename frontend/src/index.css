@@ -1,0 +1,35 @@
+@layer components {
+  .post-card {
+    @apply bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-white rounded-lg shadow-md p-6;
+  }
+  .post-title {
+    @apply text-2xl font-bold mb-2;
+  }
+  .post-body {
+    @apply text-gray-100;
+  }
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this to your Tailwind configuration or index.css for custom styles */
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+i{
+  cursor: pointer;
+}
